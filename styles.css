@@ -1,0 +1,75 @@
+.main{
+    border: 1px solid;
+    padding: 0 50px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hair__img{
+    width:90px;
+    height: 90px;
+    padding-left: 20px;
+}
+.column1{
+    width: 500px;
+}
+.hairs{
+    display: flex;
+    max-width: 360px;
+    overflow-x: auto;
+}
+::-webkit-scrollbar {
+    height: 10px;
+    background-color: #b4b3b3;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b62972;
+    border-radius: 6px;
+}
+.eyes{
+    display: flex;
+    max-width: 360px;
+    overflow-x: auto;
+}
+.eyes__img{
+    width:90px;
+    height: 90px;
+    padding-left: 20px;
+}
+.top{
+    display: flex;
+    max-width: 360px;
+    overflow-x: auto; 
+}
+.clothes__img{
+    width:90px;
+    height: 90px;
+    padding-left: 20px;
+}
+.column2{
+    position: relative;
+}
+.column2__hair{
+    position:absolute;
+    width: 100%;
+    left:0;
+    top:0;
+}
+.column2__eyes{
+    position: absolute;
+    left: 81px;
+    top: 89px;
+}
+.clothes{
+    position: absolute;
+    left: 41px;
+    top: 191px;
+}
+.pants {
+    position: absolute;
+    bottom: 5px;
+    left: 99px;
+}
